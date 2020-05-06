@@ -34,7 +34,7 @@ try:
 						if i%j == float(j-1):
 							count = count+1
 					if count == 9:
-						print(i, end=" ")
+						print(i, end=", ")
 					count = 0
 
 			elif puser == 3:
