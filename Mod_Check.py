@@ -27,7 +27,7 @@ try:
 				count = 0
 
 			elif puser == 2:
-				user = int(input("Enter your value: "))
+				user = int(input("Enter your range: "))
 				print("\n")
 				for i in range(2, user+1):
 					for j in range(2,11):
